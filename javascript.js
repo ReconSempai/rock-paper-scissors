@@ -5,3 +5,17 @@ function getRndHand(min, max) {
   }
 let computerHandNum = getRndHand(min,max);
 console.log(computerHandNum)
+
+function getComputerChoice(handNum) {
+    if (handNum==0) {
+        return "Paper"
+    }
+  else if (handNum==1){
+    return "Rock"
+ }
+ else {
+    return "Scissors"
+ }
+}
+let computerHand = getComputerChoice(computerHandNum)
+console.log (computerHand)
