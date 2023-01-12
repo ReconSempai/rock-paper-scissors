@@ -1,3 +1,4 @@
+//The following generates a random number between 0 and 2 to i can use it to make the computer "play" the game
 let min=0
 let max=3
 function getRndHand(min, max) {
@@ -19,7 +20,7 @@ function getComputerChoice(handNum) {
 }
 let computerHand = getComputerChoice(computerHandNum)
 console.log (computerHand)
-
+//Here i use a prompt to make the player chose the option they want to play and then make a simple switch  statment to play the game
 let choice = prompt ("What do you chose? Rock, Paper or Scissors?")
 playerSelec= choice.toLowerCase()
 console.log(playerSelec)
@@ -65,7 +66,7 @@ function playRound(playerSelection,computerSelection){
 }
 }
 console.log (playRound(playerSelec,computerHand))
-
+//Here i make the game function where the game will be played 5 times 
 let roundCount=0
 function game(){
 for (let i=0 ;i<5; i++ ){
