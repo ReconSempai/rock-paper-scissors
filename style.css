@@ -1,0 +1,62 @@
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+button{
+    font-size: xx-large;
+    background-color: rgba(83, 46, 170, 0.616);
+    color:rgb(218, 86, 46);
+    padding: 20px 45px;
+    border-radius: 11%;
+    transition-duration: 0.3s;
+    border: 3px;
+    border-color: rgba(153, 21, 21, 0.767);
+    border-style: outset; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.playGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+button:hover{
+    border-color: rgba(190, 18, 12, 0.692);
+    background-color:rgb(103, 68, 167);
+
+}
+.result{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+}
+.selection{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+html{
+    background-color: black;
+}
